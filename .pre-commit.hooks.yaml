@@ -1,0 +1,6 @@
+- id: ansible-requirements-versions
+  name: Ansible Requirements Versions
+  description: Uses latestversion to check versions of Ansible roles from Git repos to see if the one defined is the latest.
+  language: python
+  entry: hooks/check-ansible-requirements.py
+  files: requirements.yml
